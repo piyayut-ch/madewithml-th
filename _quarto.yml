@@ -1,0 +1,44 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Made with ML"
+  subtitle: "Applied ML | MLOps | Production"
+  author:
+    - "Goku Mohandas"
+    - "ปิยยุทธ จิตต์จำนงค์ (แปล)"
+  date: "2022-10-31"
+  chapters:
+    - index.qmd
+    - part: part-1.qmd
+      chapters:
+        - part1/python.qmd
+    - part: part-2.qmd
+      chapters:
+        - part2/linear_regression.qmd
+    - part: part-3.qmd
+      chapters:
+        - part3/cnn.qmd
+    - part: part-4.qmd
+      chapters:
+        - part4/design.qmd
+  appendices:
+    - references.qmd
+
+bibliography: references.bib
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    number-depth: 2
+    code-fold: false
+    theme: cosmo
+    css: styles.css
+  pdf:
+    documentclass: scrreprt
+
+
+

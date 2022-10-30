@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Made with ML",
+    "section": "",
+    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "part1/python.html",
+    "href": "part1/python.html",
+    "title": "1  Python",
+    "section": "",
+    "text": "Hello World"
+  }
+]
